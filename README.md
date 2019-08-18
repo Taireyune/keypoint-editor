@@ -16,6 +16,7 @@ hand for human motion analysis research.
 ## Human pose inferences from video
 ### Load video
 ![alt text][screen shot]
+
 [screen shot]: https://github.com/Taireyune/keypoint_editor/images/load_video.png
 
 ### Apply inference
