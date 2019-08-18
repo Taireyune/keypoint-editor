@@ -12,3 +12,23 @@ hand for human motion analysis research.
 * Edit key point coordinates
 * Save/load/export data
 * Correction of camera and movement based distortions
+
+## Human pose inferences from video
+### Load video
+![alt text][screen shot]
+[screen shot]: https://github.com/Taireyune/keypoint_editor/images/load_video.png
+
+### Apply inference
+
+apply_inference
+
+### Show and inspect
+
+show_and_inspect
+
+## Edit key point coordinates
+### Add new points
+
+add_part
+
+
