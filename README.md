@@ -10,7 +10,7 @@ tyleryuanwu@gmail.com or alanzhang@gmail.com to request related source code.
 
 ## Functions     
 
-* Human pose inference from video
+* [Human pose inferences from video](##Human-pose-inference-from-video)
 * Edit key point coordinates
 * Correction of camera and movement based distortions
 * Save/load/export data
@@ -69,8 +69,8 @@ width="840" height="525" alt="smooth after">
 
 ## Save/load/export data
 ### Save and load works
-Unfinished work can be saved and reloaded. Pixel coordinates or real distances 
-parallel to the camera plane can be exported for 2D analysis or further 3D triangulation
+Unfinished work can be saved and reloaded. Pixel coordinates and real distances 
+(parallel to the camera plane with distoration corrections) can be exported for 2D analysis or further 3D triangulation
 with other camera views. 
 
 ### export data
