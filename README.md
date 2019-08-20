@@ -10,12 +10,12 @@ tyleryuanwu@gmail.com or alanzhang@gmail.com to request related source code.
 
 ## Functions     
 
-* [Human pose inferences from video](https://github.com/Taireyune/keypoint_editor#Human-pose-inference-from-video)
-* [Human pose inferences from video](https://github.com/Taireyune/keypoint_editor#Edit-key-point-coordinates)
-* [Human pose inferences from video](https://github.com/Taireyune/keypoint_editor#Correction-of-camera-and-movement-based-distortions)
-* [Human pose inferences from video](https://github.com/Taireyune/keypoint_editor#Save/load/export-data)
+* [Human pose inference from video](https://github.com/Taireyune/keypoint_editor#Human-pose-inference-from-video)
+* [Edit key point coordinates](https://github.com/Taireyune/keypoint_editor#Edit-key-point-coordinates)
+* [Correction of camera and movement distortions](https://github.com/Taireyune/keypoint_editor#Distortion-corrections)
+* [Save/load/export data](https://github.com/Taireyune/keypoint_editor#Save-open-or-export-data)
 
-## Human pose inferences from video
+## Human pose inference from video
 ### Load video
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/load_video.png" 
@@ -67,9 +67,9 @@ width="840" height="525" alt="smooth settings">
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/smoothing_after.png" 
 width="840" height="525" alt="smooth after">
 
-## Save/load/export data
-### Save and load works
-Unfinished work can be saved and reloaded. Pixel coordinates and real distances 
+## Save open or export data
+### Save and open works
+Unfinished work can be saved and reopened. Pixel coordinates and real distances 
 (parallel to the camera plane with distoration corrections) can be exported for 2D analysis or further 3D triangulation
 with other camera views. 
 
