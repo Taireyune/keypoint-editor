@@ -18,7 +18,8 @@ tyleryuanwu@gmail.com or alanzhang@gmail.com to request related source code.
 ## Human pose inferences from video
 #### Load video
 ![load video](https://github.com/Taireyune/keypoint_editor/blob/master/images/load_video.png =1260x788)
-
+<img src="https://github.com/Taireyune/keypoint_editor/blob/master/images/load_video.png" 
+width="1260" height="788" alt="load video">
 #### Apply inference
 There is several recognition models to choose from to get the most optimal inference.
 The models are based on tf_pose (link to github) with various pre and post processing techniques.
