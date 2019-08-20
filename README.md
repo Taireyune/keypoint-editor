@@ -10,7 +10,7 @@ tyleryuanwu@gmail.com or alanzhang@gmail.com to request related source code.
 
 ## Functions     
 
-* [Human pose inferences from video](##Human-pose-inference-from-video)
+* [Human pose inferences from video](##-Human-pose-inference-from-video)
 * Edit key point coordinates
 * Correction of camera and movement based distortions
 * Save/load/export data
