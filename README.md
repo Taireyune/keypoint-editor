@@ -26,26 +26,46 @@ The models are based on tf_pose (link to github) with various pre and post proce
 This repository contain a snippet of the post-processing.
 
 #### Show and inspect inference
-![inspect inference](https://github.com/Taireyune/keypoint_editor/blob/master/images/show_inspect.gif)
+<img 
+src="https://github.com/Taireyune/keypoint_editor/blob/master/images/show_inspect.gif" 
+alt="inspect inference">
 
 ## Edit key point coordinates
 #### Add and delete objects
-![add object](https://github.com/Taireyune/keypoint_editor/blob/master/images/add_object.png =1260x788)
-![delete object](https://github.com/Taireyune/keypoint_editor/blob/master/images/delete_object.png)
+<img 
+src="https://github.com/Taireyune/keypoint_editor/blob/master/images/add_object.png" 
+width="840" height="525" alt="add object">
+<img 
+src="https://github.com/Taireyune/keypoint_editor/blob/master/images/delete_object.png" 
+width="840" height="525" alt="delete object">
 
 #### Edit key points
-![shoulder edit](https://github.com/Taireyune/keypoint_editor/blob/master/images/shoulder_edit.gif)
-![undo edit](https://github.com/Taireyune/keypoint_editor/blob/master/images/undo.png)
+<img 
+src="https://github.com/Taireyune/keypoint_editor/blob/master/images/shoulder_edit.gif" 
+alt="shoulder edit">
+<img 
+src="https://github.com/Taireyune/keypoint_editor/blob/master/images/undo.png" 
+width="840" height="525" alt="undo edit">
 
 ## Distortion corrections
 #### Camera calibration
-![camera calibration](https://github.com/Taireyune/keypoint_editor/blob/master/images/camera_calibration.png =1260x788)
-![cmo parameters](https://github.com/Taireyune/keypoint_editor/blob/master/images/cmo_parameters.png =1260x788)
+<img 
+src="https://github.com/Taireyune/keypoint_editor/blob/master/images/camera_calibration.png" 
+width="840" height="525" alt="camera calibration">
+<img 
+src="https://github.com/Taireyune/keypoint_editor/blob/master/images/cmo_parameters.png" 
+width="840" height="525" alt="cmo parameters">
 
 #### Key point smoothing
-![smooth before](https://github.com/Taireyune/keypoint_editor/blob/master/images/smoothing_before.png =1260x788)
-![smooth settings](https://github.com/Taireyune/keypoint_editor/blob/master/images/smoothing_settings.png =1260x788)
-![smooth after](https://github.com/Taireyune/keypoint_editor/blob/master/images/smoothing_after.png =1260x788)
+<img 
+src="https://github.com/Taireyune/keypoint_editor/blob/master/images/smoothing_before.png" 
+width="840" height="525" alt="smooth before">
+<img 
+src="https://github.com/Taireyune/keypoint_editor/blob/master/images/smoothing_settings.png" 
+width="840" height="525" alt="smooth settings">
+<img 
+src="https://github.com/Taireyune/keypoint_editor/blob/master/images/smoothing_after.png" 
+width="840" height="525" alt="smooth after">
 
 ## Save/load/export data
 #### Save and load works
@@ -54,7 +74,8 @@ parallel to the camera plane can be exported for 2D analysis or further 3D trian
 with other camera views. 
 
 #### export data
-![exported data](https://github.com/Taireyune/keypoint_editor/blob/master/images/exported_data.png =1260x788)
-
+<img 
+src="https://github.com/Taireyune/keypoint_editor/blob/master/images/exported_data.png" 
+width="840" height="525" alt="exported data">
 
 
