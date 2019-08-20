@@ -16,22 +16,22 @@ tyleryuanwu@gmail.com or alanzhang@gmail.com to request related source code.
 * Save/load/export data
 
 ## Human pose inferences from video
-#### Load video
+### Load video
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/load_video.png" 
 width="840" height="525" alt="load video">
-#### Apply inference
+### Apply inference
 There is several recognition models to choose from to get the most optimal inference.
 The models are based on tf_pose (link to github) with various pre and post processing techniques.
 This repository contain a snippet of the post-processing.
 
-#### Show and inspect inference
+### Show and inspect inference
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/show_inspect.gif" 
 alt="inspect inference">
 
 ## Edit key point coordinates
-#### Add and delete objects
+### Add and delete objects
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/add_object.png" 
 width="840" height="525" alt="add object">
@@ -39,7 +39,7 @@ width="840" height="525" alt="add object">
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/delete_object.png" 
 width="840" height="525" alt="delete object">
 
-#### Edit key points
+### Edit key points
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/shoulder_edit.gif" 
 alt="shoulder edit">
@@ -48,7 +48,7 @@ src="https://github.com/Taireyune/keypoint_editor/blob/master/images/undo.png"
 width="840" height="525" alt="undo edit">
 
 ## Distortion corrections
-#### Camera calibration
+### Camera calibration
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/camera_calibration.png" 
 width="840" height="525" alt="camera calibration">
@@ -56,7 +56,7 @@ width="840" height="525" alt="camera calibration">
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/cmo_parameters.png" 
 width="840" height="525" alt="cmo parameters">
 
-#### Key point smoothing
+### Key point smoothing
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/smoothing_before.png" 
 width="840" height="525" alt="smooth before">
@@ -68,12 +68,12 @@ src="https://github.com/Taireyune/keypoint_editor/blob/master/images/smoothing_a
 width="840" height="525" alt="smooth after">
 
 ## Save/load/export data
-#### Save and load works
+### Save and load works
 Unfinished work can be saved and reloaded. Pixel coordinates or real distances 
 parallel to the camera plane can be exported for 2D analysis or further 3D triangulation
 with other camera views. 
 
-#### export data
+### export data
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/exported_data.png" 
 width="840" height="525" alt="exported data">
