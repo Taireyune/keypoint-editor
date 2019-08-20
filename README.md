@@ -15,7 +15,7 @@ tyleryuanwu@gmail.com or alanzhang@gmail.com to request related source code.
 * Correction of camera and movement based distortions
 * Save/load/export data
 
-## Human pose inferences from video
+## <a name="Human pose inferences from video"></a>
 ### Load video
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/load_video.png" 
