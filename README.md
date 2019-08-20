@@ -17,43 +17,43 @@ tyleryuanwu@gmail.com or alanzhang@gmail.com to request related source code.
 
 ## Human pose inferences from video
 #### Load video
-![screen shot](https://github.com/Taireyune/keypoint_editor/blob/master/images/load_video.png)
+![load video](https://github.com/Taireyune/keypoint_editor/blob/master/images/load_video.png)
 
 #### Apply inference
+There is several recognition models to choose from to get the most optimal inference.
+The models are based on tf_pose (link to github) with various pre and post processing techniques.
+This repository contain a snippet of the post-processing.
 
-apply_inference.png
-
-#### Show and inspect
-
-show_and_inspect.gif
+#### Show and inspect inference
+![inspect inference](https://github.com/Taireyune/keypoint_editor/blob/master/images/show_inspect.gif)
 
 ## Edit key point coordinates
 #### Add and delete objects
-
-add_delete.png
+![add object](https://github.com/Taireyune/keypoint_editor/blob/master/images/add_object.png)
+![delete object](https://github.com/Taireyune/keypoint_editor/blob/master/images/add_delete.png)
 
 #### Edit key points
-
-edit_key_points.gif
-undo_edits.png
+![shoulder edit](https://github.com/Taireyune/keypoint_editor/blob/master/images/shoulder_edit.gif)
+![undo edit](https://github.com/Taireyune/keypoint_editor/blob/master/images/undo.png)
 
 ## Distortion corrections
 #### Camera calibration
-
-camera_calibration.png
-other_parameters.png
+![camera calibration](https://github.com/Taireyune/keypoint_editor/blob/master/images/camera_calibration.png)
+![cmo parameters](https://github.com/Taireyune/keypoint_editor/blob/master/images/cmo_parameters.png)
 
 #### Key point smoothing
-
-keypoint_smoothing_before.png
-keypoint_smoothing_after.png
+![smooth before](https://github.com/Taireyune/keypoint_editor/blob/master/images/smooth_before.png)
+![smooth settings](https://github.com/Taireyune/keypoint_editor/blob/master/images/smooth_settings.png)
+![smooth after](https://github.com/Taireyune/keypoint_editor/blob/master/images/smooth_after.png)
 
 ## Save/load/export data
 #### Save and load works
-save_load.png
+Unfinished work can be saved and reloaded. Pixel coordinates or real distances 
+parallel to the camera plane can be exported for 2D analysis or further 3D triangulation
+with other camera views. 
 
 #### export data
-export_data.png 
+![exported data](https://github.com/Taireyune/keypoint_editor/blob/master/images/exported_data.png)
 
 
 
