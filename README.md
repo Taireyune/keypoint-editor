@@ -61,7 +61,7 @@ src="https://github.com/Taireyune/keypoint_editor/blob/master/images/shoulder_ed
 alt="shoulder edit">
 
 Can't have an editor without 
-[**undo** and **redo**](https://github.com/Taireyune/keypoint_editor/blob/master/sample_code/ActionRecord.py).
+[undo and redo](https://github.com/Taireyune/keypoint_editor/blob/master/sample_code/ActionRecord.py).
 
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/undo.png" 
@@ -88,14 +88,14 @@ src="https://github.com/Taireyune/keypoint_editor/blob/master/images/cmo_paramet
 width="840" height="525" alt="cmo parameters">
 
 ### Key point smoothing
-Often the inference errors can be mitigated by smoothing. Here is the point
+Often the inference errors can be mitigated by smoothing. Screenshot shows the point
 trajectory with inference noise.
 
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/smoothing_before.png" 
 width="840" height="525" alt="smooth before">
 
-Here we can use default settings.
+The default settings are based on video information.
 
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/smoothing_settings.png" 
