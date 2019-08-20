@@ -10,10 +10,10 @@ tyleryuanwu@gmail.com or alanzhang@gmail.com to request related source code.
 
 ## Functions     
 
-* [Human pose inference from video](https://github.com/Taireyune/keypoint_editor#Human-pose-inference-from-video)
-* [Edit key point coordinates](https://github.com/Taireyune/keypoint_editor#Edit-key-point-coordinates)
-* [Correction of camera and movement distortions](https://github.com/Taireyune/keypoint_editor#Distortion-corrections)
-* [Save/open/export data](https://github.com/Taireyune/keypoint_editor#Save-open-or-export-data)
+* [**Human pose inference from video**](https://github.com/Taireyune/keypoint_editor#Human-pose-inference-from-video)
+* [**Edit key point coordinates**](https://github.com/Taireyune/keypoint_editor#Edit-key-point-coordinates)
+* [**Correction of camera and movement distortions**](https://github.com/Taireyune/keypoint_editor#Distortion-corrections)
+* [**Save/open/export data**](https://github.com/Taireyune/keypoint_editor#Save-open-or-export-data)
 
 ## Human pose inference from video
 ### Load video
@@ -24,11 +24,13 @@ width="840" height="525" alt="load video">
 There is several recognition models to choose from to get the most optimal inference.
 The models are based on [tf-pose-estimation](https://github.com/ildoonet/tf-pose-estimation) 
 with various wrapper pre and post processing techniques.
-This repository contain a snippet of the post-processing.
+This repository contain a snippet of the [post-processing]().
 
 ### Show and inspect inference
-Each frame can be zoomed and panned using the mouse and Ctrl key based on 
-[PyQt tools](https://github.com/marcel-goldschen-ohm/QtOpenGLViewer).
+All video frames can be zoomed and panned using the mouse and Ctrl key based on 
+[PyQt tools](https://github.com/marcel-goldschen-ohm/PyQtImageViewer). 
+[Here is the sample code.]()
+
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/show_inspect.gif" 
 alt="inspect inference">
@@ -57,7 +59,7 @@ after each edit.
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/shoulder_edit.gif" 
 alt="shoulder edit">
 
-Can't have an editor without the undo/redo button.
+Can't have an editor without the [**undo/redo button**]().
 
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/undo.png" 
@@ -65,22 +67,24 @@ width="840" height="525" alt="undo edit">
 
 ## Distortion corrections
 ### Camera calibration
-Checker board video used to obtain camera parameters automatically. The parameters
-are used to correct distortions or used in 3D reconstruction computations.
+Checker board video can be used to obtain camera parameters automatically. 
+The parameters are used to correct distortions or used in 3D reconstruction computations.
 
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/camera_calibration.png" 
 width="840" height="525" alt="camera calibration">
 
-Depending on the camera used, other camera parameters can be set here. Motion based
+Depending on the camera used, other camera parameters can be set here. Motion-based
 distortions can be corrected using these parameters. 
+Link to the [GUI Dialog]() and the 
+[computations]().
 
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/cmo_parameters.png" 
 width="840" height="525" alt="cmo parameters">
 
 ### Key point smoothing
-Most of the inference errors can be mitigated by smoothing. Here is the point
+Often the inference errors can be mitigated by smoothing. Here is the point
 trajectory with inference noise.
 
 <img 
@@ -93,7 +97,7 @@ Here we can use default settings.
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/smoothing_settings.png" 
 width="840" height="525" alt="smooth settings">
 
-The tragectory after smoothing.
+This is the tragectory after smoothing.
 
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/smoothing_after.png" 
@@ -101,11 +105,14 @@ width="840" height="525" alt="smooth after">
 
 ## Save open or export data
 ### Save and open works
-Unfinished work can be saved and reopened. Pixel coordinates and real distances 
-(parallel to the camera plane with distoration corrections) can be exported for 2D analysis or further 3D triangulation
+Unfinished work can be saved and reopened. Pixel coordinates and real distance 
+coordinates can be exported for 2D analysis or further 3D triangulation
 with other camera views. 
 
-### export data
+### Export data
+Before exporting, the GUI will ask if the parameters from the calibrations and 
+setting will be used to adjust the 2D point coordinates for more accurate analysis. 
+
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/exported_data.png" 
 width="840" height="525" alt="exported data">
