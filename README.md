@@ -25,12 +25,12 @@ There is several recognition models to choose from to get the most optimal infer
 The models are based on [tf-pose-estimation](https://github.com/ildoonet/tf-pose-estimation) 
 with various wrapper pre and post processing techniques.
 This repository contain a snippet of the 
-[post-processing](https://github.com/Taireyune/keypoint_editor/blob/master/sample_code/PredictionPostProcess.py).
+[post processing](https://github.com/Taireyune/keypoint_editor/blob/master/sample_code/PredictionPostProcess.py).
 
 ### Show and inspect inference
 All video frames can be zoomed and panned using the mouse and Ctrl key based on 
 [PyQt tools by marcel-goldschen-ohm](https://github.com/marcel-goldschen-ohm/PyQtImageViewer). 
-[Here is the sample code.](https://github.com/Taireyune/keypoint_editor/blob/master/sample_code/QtImageViewer.py)
+[Here is the sample code](https://github.com/Taireyune/keypoint_editor/blob/master/sample_code/QtImageViewer.py).
 
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/show_inspect.gif" 
@@ -61,7 +61,7 @@ src="https://github.com/Taireyune/keypoint_editor/blob/master/images/shoulder_ed
 alt="shoulder edit">
 
 Can't have an editor without 
-[**undo and redo**](https://github.com/Taireyune/keypoint_editor/blob/master/sample_code/ActionRecord.py).
+[**undo** and **redo**](https://github.com/Taireyune/keypoint_editor/blob/master/sample_code/ActionRecord.py).
 
 <img 
 src="https://github.com/Taireyune/keypoint_editor/blob/master/images/undo.png" 
