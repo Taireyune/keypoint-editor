@@ -5,6 +5,7 @@ coordinates from input videos. Since human pose-estimation inferences are not
 perfect, this tool provide users with the means to edit the coordinates by 
 hand for human motion analysis research.
 
+The GUI is written mainly with PyQt, numpy, and cv2 libraries.
 This repository shows the functions and sample code of the GUI. Please email 
 tyleryuanwu@gmail.com or alanzhang@gmail.com to request related source code.
 
