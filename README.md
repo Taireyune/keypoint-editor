@@ -11,30 +11,30 @@ tyleryuanwu@gmail.com or alanzhang@gmail.com to request related source code.
 
 ## Functions     
 
-* [**Human pose inference from video**](https://github.com/Taireyune/keypoint_editor#Human-pose-inference-from-video)
-* [**Edit key point coordinates**](https://github.com/Taireyune/keypoint_editor#Edit-key-point-coordinates)
-* [**Correction of camera and movement distortions**](https://github.com/Taireyune/keypoint_editor#Distortion-corrections)
-* [**Save/open/export data**](https://github.com/Taireyune/keypoint_editor#Save-open-or-export-data)
+* [**Human pose inference from video**](https://github.com/Taireyune/keypoint-editor#Human-pose-inference-from-video)
+* [**Edit key point coordinates**](https://github.com/Taireyune/keypoint-editor#Edit-key-point-coordinates)
+* [**Correction of camera and movement distortions**](https://github.com/Taireyune/keypoint-editor#Distortion-corrections)
+* [**Save/open/export data**](https://github.com/Taireyune/keypoint-editor#Save-open-or-export-data)
 
 ## Human pose inference from video
 ### Load video
 <img 
-src="https://github.com/Taireyune/keypoint_editor/blob/master/images/load_video.png" 
+src="https://github.com/Taireyune/keypoint-editor/blob/master/images/load_video.png" 
 width="840" height="525" alt="load video">
 ### Apply inference
 There is several recognition models to choose from to get the most optimal inference.
 The models are based on [tf-pose-estimation](https://github.com/ildoonet/tf-pose-estimation) 
 with various wrapper pre and post processing techniques.
 This repository contain a snippet of the 
-[post processing](https://github.com/Taireyune/keypoint_editor/blob/master/sample_code/PredictionPostProcess.py).
+[post processing](https://github.com/Taireyune/keypoint-editor/blob/master/sample_code/PredictionPostProcess.py).
 
 ### Show and inspect inference
 All video frames can be zoomed and panned using the mouse and Ctrl key based on 
 [PyQt tools by marcel-goldschen-ohm](https://github.com/marcel-goldschen-ohm/PyQtImageViewer). 
-[Here is the sample code](https://github.com/Taireyune/keypoint_editor/blob/master/sample_code/QtImageViewer.py).
+[Here is the sample code](https://github.com/Taireyune/keypoint-editor/blob/master/sample_code/QtImageViewer.py).
 
 <img 
-src="https://github.com/Taireyune/keypoint_editor/blob/master/images/show_inspect.gif" 
+src="https://github.com/Taireyune/keypoint-editor/blob/master/images/show_inspect.gif" 
 alt="inspect inference">
 
 ## Edit key point coordinates
@@ -42,13 +42,13 @@ alt="inspect inference">
 Besides the inference key points, users can add other built-in objects or add their own.
 
 <img 
-src="https://github.com/Taireyune/keypoint_editor/blob/master/images/add_object.png" 
+src="https://github.com/Taireyune/keypoint-editor/blob/master/images/add_object.png" 
 width="840" height="525" alt="add object">
 
 You can of course delete too.
 
 <img 
-src="https://github.com/Taireyune/keypoint_editor/blob/master/images/delete_object.png" 
+src="https://github.com/Taireyune/keypoint-editor/blob/master/images/delete_object.png" 
 width="840" height="525" alt="delete object">
 
 ### Edit key points
@@ -58,14 +58,14 @@ point trajectory and use the auto-next function to go to the next frame or objec
 after each edit.
 
 <img 
-src="https://github.com/Taireyune/keypoint_editor/blob/master/images/shoulder_edit.gif" 
+src="https://github.com/Taireyune/keypoint-editor/blob/master/images/shoulder_edit.gif" 
 alt="shoulder edit">
 
 Can't have an editor without 
-[undo and redo](https://github.com/Taireyune/keypoint_editor/blob/master/sample_code/ActionRecord.py).
+[undo and redo](https://github.com/Taireyune/keypoint-editor/blob/master/sample_code/ActionRecord.py).
 
 <img 
-src="https://github.com/Taireyune/keypoint_editor/blob/master/images/undo.png" 
+src="https://github.com/Taireyune/keypoint-editor/blob/master/images/undo.png" 
 width="840" height="525" alt="undo edit">
 
 ## Distortion corrections
@@ -74,18 +74,18 @@ Checker board video can be used to obtain camera parameters automatically.
 The parameters are used to correct distortions or used in 3D reconstruction computations.
 
 <img 
-src="https://github.com/Taireyune/keypoint_editor/blob/master/images/camera_calibration.png" 
+src="https://github.com/Taireyune/keypoint-editor/blob/master/images/camera_calibration.png" 
 width="840" height="525" alt="camera calibration">
 
 Depending on the camera used, other camera parameters can be set here. Motion-based
 distortions can be corrected using these parameters. 
 Link to the 
-[dialog](https://github.com/Taireyune/keypoint_editor/blob/master/sample_code/ParameterDialog.py) 
+[dialog](https://github.com/Taireyune/keypoint-editor/blob/master/sample_code/ParameterDialog.py) 
 and the 
-[computations](https://github.com/Taireyune/keypoint_editor/blob/master/sample_code/ComputeUnroll.py).
+[computations](https://github.com/Taireyune/keypoint-editor/blob/master/sample_code/ComputeUnroll.py).
 
 <img 
-src="https://github.com/Taireyune/keypoint_editor/blob/master/images/cmo_parameters.png" 
+src="https://github.com/Taireyune/keypoint-editor/blob/master/images/cmo_parameters.png" 
 width="840" height="525" alt="cmo parameters">
 
 ### Key point smoothing
@@ -93,19 +93,19 @@ Often the inference errors can be mitigated by smoothing. Screenshot shows the p
 trajectory with inference noise.
 
 <img 
-src="https://github.com/Taireyune/keypoint_editor/blob/master/images/smoothing_before.png" 
+src="https://github.com/Taireyune/keypoint-editor/blob/master/images/smoothing_before.png" 
 width="840" height="525" alt="smooth before">
 
 The default settings are based on video information.
 
 <img 
-src="https://github.com/Taireyune/keypoint_editor/blob/master/images/smoothing_settings.png" 
+src="https://github.com/Taireyune/keypoint-editor/blob/master/images/smoothing_settings.png" 
 width="840" height="525" alt="smooth settings">
 
 This is the tragectory after smoothing.
 
 <img 
-src="https://github.com/Taireyune/keypoint_editor/blob/master/images/smoothing_after.png" 
+src="https://github.com/Taireyune/keypoint-editor/blob/master/images/smoothing_after.png" 
 width="840" height="525" alt="smooth after">
 
 ## Save open or export data
@@ -119,7 +119,7 @@ Before exporting, the GUI will ask if the parameters from the calibrations and
 setting will be used to adjust the 2D point coordinates for more accurate analysis. 
 
 <img 
-src="https://github.com/Taireyune/keypoint_editor/blob/master/images/exported_data.png" 
+src="https://github.com/Taireyune/keypoint-editor/blob/master/images/exported_data.png" 
 width="840" height="525" alt="exported data">
 
 
