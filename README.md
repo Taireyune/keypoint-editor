@@ -117,6 +117,7 @@ with other camera views.
 ### Export data
 Before exporting, the GUI will ask if the parameters from the calibrations and 
 setting will be used to adjust the 2D point coordinates for more accurate analysis. 
+Here is a table of the output.
 
 <img 
 src="https://github.com/Taireyune/keypoint-editor/blob/master/images/exported_data.png" 
