@@ -7,7 +7,7 @@ hand for human motion analysis research.
 
 The GUI is written mainly with PyQt, numpy, and cv2 libraries.
 This repository shows the functions and sample code of the GUI. Please email 
-tyleryuanwu@gmail.com or alanzhang@gmail.com to request related source code.
+tyleryuanwu@gmail.com or usalanzhang@gmail.com to request related source code.
 
 ## Functions     
 
