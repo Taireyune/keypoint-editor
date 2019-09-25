@@ -23,7 +23,8 @@ src="https://github.com/Taireyune/keypoint-editor/blob/master/images/load_video.
 width="840" height="525" alt="load video">
 ### Apply inference
 There is several recognition models to choose from to get the most optimal inference.
-The models are based on [tf-pose-estimation](https://github.com/ildoonet/tf-pose-estimation) 
+The models are based on [tf-pose-estimation](https://github.com/ildoonet/tf-pose-estimation),
+a tensorflow version of the [OpenPose model](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 with various wrapper pre and post processing techniques.
 This repository contain a snippet of the 
 [post processing](https://github.com/Taireyune/keypoint-editor/blob/master/sample_code/PredictionPostProcess.py).
